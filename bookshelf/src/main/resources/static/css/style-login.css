@@ -1,0 +1,199 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 8, 2018, 4:27:24 PM
+    Author     : anyfeed
+*/
+
+@font-face{
+    font-family: 'FiraSansRegular';
+    src: url('../fonts/FiraSansRegular/FiraSansRegular.eot');
+    src: url('../fonts/FiraSansRegular/FiraSansRegular.eot?iefix') format('eot'),
+        url('../fonts/FiraSansRegular/FiraSansRegular.woff') format('woff'),
+        url('../fonts/FiraSansRegular/FiraSansRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+html {
+    height: 90%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+body {
+    text-align: center;
+    font-family:  'Fira Sans', sans-serif;
+    height: 87%;
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    min-width: 1000px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    height: 111px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: url(../images/main01.jpg) 50% 0% no-repeat;
+}
+
+h1, h2, h3, h4 {
+    color: #0a5a8f; 
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+    width: 100%;
+    padding:0% 0% 0%;
+    position: relative;
+}
+.middle:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+.container {
+    width: 100%;
+    float:  none;
+    overflow: hidden;
+}
+
+.content {
+    text-align:center;
+    padding: 0% 21% 0% 21%;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+    width: 100%;
+    padding:0% 0% 0%;
+    position: relative;
+    padding: 12px;
+    font-family: 'Fira Sans',  sans-serif;
+    text-align: center;
+    width: 55%;
+    height: 12px;
+    margin: auto;
+    font-size: 14px;
+    color: white;
+    background-color: #0a5a8f;
+}
+/* Form style
+-----------------------------------------------------------------------------*/
+.input {
+    width: 290px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 30px;
+    background-color: white;
+    background-position: 16px 3px; 
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 25px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+.formbutton {
+    width: 90px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #0a5a8f;
+    text-align: center;
+    background-color: white;
+    background-position: 16px 3px; 
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    padding: 0px;
+
+}
+
+.formbutton:hover {
+    width: 90px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    background-color: #0a5a8f;
+    background-position: 16px 3px; 
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.formbutton:active { 
+    border-top-color: #ffffff; 
+    background: #68bef7; 
+}
+
